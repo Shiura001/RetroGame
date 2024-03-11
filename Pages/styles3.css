@@ -1,0 +1,62 @@
+#header {
+    background-image: url('imagenes/nav.png'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la URL de tu imagen */
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    border: 5px solid rgb(21, 0, 138); /* Grosor de 2 píxeles, sólido y de color rojo */
+    text-align: center;
+
+}
+
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-image: url('imagenes/nav.png'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la URL de tu imagen */
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    width: 100%;
+    
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+    
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    font-size: 16px;
+    margin-left: 154px;
+    padding: 20px 0;
+    position: relative;
+    
+  }
